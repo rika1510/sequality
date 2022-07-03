@@ -6,6 +6,6 @@ public class Calculate {
   }
 
   public static void main(String[] args) {
-    System.out.println(new Calculate().sum(3, 2));
+    System.out.println(new Calculate().sum());
   }
 }
