@@ -62,7 +62,7 @@ public class Calculate {
       y = tmp;
     }
     sum = (double) (sum(x, y));
-    ave = (double) (sum / (double) (y - x + 1));
+    ave = sum / (double) (y - x + 1);
     return ave;
   }
 

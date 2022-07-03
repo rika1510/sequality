@@ -54,15 +54,14 @@ public class Calculate {
   }
 
   public double average(int x, int y) {
-    int tmp;
-    double ave, sum;
+    int sum, tmp, ave;
     if (x > y) {
       tmp = x;
       x = y;
       y = tmp;
     }
-    sum = (double) (sum(x, y));
-    ave = (double) (sum / (double) (y - x + 1));
+    sum = sum(x, y);
+    ave = sum / (y - x);
     return ave;
   }
 

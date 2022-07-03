@@ -14,7 +14,7 @@ public class Calculate {
       y = tmp;
     }
     for (i = x; i <= y; i++) {
-      sum = sum + i;
+      sum = i;
     }
     return sum;
   }
@@ -27,43 +27,12 @@ public class Calculate {
       x = y;
       y = tmp;
     }
-    if (x % 2 == 0) {
+    if(x%2==0){
       x++;
     }
     for (i = x; i <= y; i = i + 2) {
-      sum = sum + i;
+      
     }
-    return sum;
-  }
-
-  public int sumEvenTo(int x, int y) {
-    int sum = 0;
-    int i, tmp;
-    if (x > y) {
-      tmp = x;
-      x = y;
-      y = tmp;
-    }
-    if (x % 2 == 1) {
-      x++;
-    }
-    for (i = x; i <= y; i = i + 2) {
-      sum = sum + i;
-    }
-    return sum;
-  }
-
-  public double average(int x, int y) {
-    int tmp;
-    double ave, sum;
-    if (x > y) {
-      tmp = x;
-      x = y;
-      y = tmp;
-    }
-    sum = (double) (sum(x, y));
-    ave = (double) (sum / (double) (y - x + 1));
-    return ave;
   }
 
   public static void main(String[] args) {

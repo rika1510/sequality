@@ -53,19 +53,6 @@ public class Calculate {
     return sum;
   }
 
-  public double average(int x, int y) {
-    int tmp;
-    double ave, sum;
-    if (x > y) {
-      tmp = x;
-      x = y;
-      y = tmp;
-    }
-    sum = (double) (sum(x, y));
-    ave = (double) (sum / (double) (y - x + 1));
-    return ave;
-  }
-
   public static void main(String[] args) {
     System.out.println(new Calculate().sum(3, 2));
   }

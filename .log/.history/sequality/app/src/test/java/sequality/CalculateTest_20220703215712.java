@@ -22,28 +22,13 @@ public class CalculateTest {
   public void testSumOddTo() {
     Calculate calculate = new Calculate();
     int expected = 25;
-    assertEquals(expected, calculate.sumOddTo(1, 10));
+    assertEquals(expected, calculate.sum(1, 10));
   }
 
   @Test
-  public void testSumEvenTo() {
+  public void testSumOddTo() {
     Calculate calculate = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calculate.sumEvenTo(1, 10));
+    int expected = 25;
+    assertEquals(expected, calculate.sum(1, 10));
   }
-
-  @Test
-  public void testAverage() {
-    Calculate calculate = new Calculate();
-    double expected = 2.5;
-    assertEquals(expected, calculate.average(2, 3), 0);
-  }
-
-  // @Test
-  // public void testAverage2() {
-  // Calculate calculate = new Calculate();
-  // double expected = 5.5;
-  // assertEquals(expected, calculate.average(1, 10), 0);
-  // }
-
 }

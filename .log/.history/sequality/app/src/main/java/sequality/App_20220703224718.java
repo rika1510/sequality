@@ -15,8 +15,8 @@ public class App {
     sum2 = new Calculate().sumTo(1, 10);
     sum3 = new Calculate().sumOddTo(1, 10);
     sum4 = new Calculate().sumEvenTo(1, 10);
-    System.out.println("Sum of 2 and 3 is " + sum1);
-    System.out.println("Sum of 1 to 10 is " + sum2);
-    System.out.println("Sum of odd of 1 to 10 is " + sum3 + ".Sum of even is " + sum4);
+    System.out.println("Sum of 2 and 3 is" + sum1);
+    System.out.println("Sum of 1 to 10 is" + sum2);
+    System.out.println("Sum of 2 and 3 is" + sum1);
   }
 }

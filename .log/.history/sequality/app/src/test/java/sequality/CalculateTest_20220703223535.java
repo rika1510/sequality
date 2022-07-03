@@ -32,15 +32,8 @@ public class CalculateTest {
     assertEquals(expected, calculate.sumEvenTo(1, 10));
   }
 
-  @Test
-  public void testAverage() {
-    Calculate calculate = new Calculate();
-    double expected = 2.5;
-    assertEquals(expected, calculate.average(2, 3), 0);
-  }
-
   // @Test
-  // public void testAverage2() {
+  // public void testAverage() {
   // Calculate calculate = new Calculate();
   // double expected = 5.5;
   // assertEquals(expected, calculate.average(1, 10), 0);
